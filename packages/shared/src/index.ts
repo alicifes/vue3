@@ -1,3 +1,3 @@
-export const isObj = (value) => {
+export const isObj = (value: any) => {
     return typeof value === 'object' && value !== null;
 }
